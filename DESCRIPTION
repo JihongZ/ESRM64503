@@ -1,7 +1,7 @@
 Package: ESRM64504
 Type: Package
 Title: Functions, files, and dependencies for Jonathan Templin's EPSY 905 course
-Version: 2018.1.2
+Version: 2024.08.17
 Author: person("Jonathan", "Templin", email = "jtemplin@ku.edu", role = c("aut", "cre"))
 Maintainer: Jihong Zhang <jzhang@uark.edu>
 Description: Contains all functions, files, and dependencies for EPSY 905, taught by Jonathan Templin. 
