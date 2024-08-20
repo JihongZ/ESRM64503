@@ -7,7 +7,7 @@
 homework()
 }
 \description{
-This function allows you to check the progress of homework
+This function allows you to check out the progress of homework
 }
 \examples{
 homework()
