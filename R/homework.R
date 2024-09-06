@@ -14,3 +14,11 @@ Next homework (Homework 1) will be posted on 09/09/2024.
 For more details, please refer to
 https://jihongzhang.org/posts/Lectures/2024-07-21-applied-multivariate-statistics-esrm64503/")
 }
+
+#' @export
+showtable <- function(dt, font_size = 23, ...){
+  dt <- as.data.frame(dt)
+  kableExtra::kable(dt) |>
+    kableExtra::kable_styling(font_size = font_size, ...)
+}
+
