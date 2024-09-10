@@ -10,7 +10,6 @@ message("
 There will be four homeworks in total for ESRM 64503.
 
 Homework 0's answer:
-
 Q2: In Rstudio, load the tidyverse package and copy-paste the console output of sessioninfo()
 A2:
 > sessionInfo()
@@ -52,6 +51,7 @@ loaded via a namespace (and not attached):
 Q3: (Multiple-choice question) Assume you've already loaded the tidyverse and one dataset called flights in your R session, which R function below can get you know the number of rows AND columns of flights?
 Note: you can load flights using the R code 'install.packages('nycflights13'); library(nycflights13)'
 A3: Check all options.
+
 
 You can work on HW1 now, please click the following link to have access:
 https://jihongzhang.org/posts/Lectures/2024-07-21-applied-multivariate-statistics-esrm64503/HWs/HW_1.html
