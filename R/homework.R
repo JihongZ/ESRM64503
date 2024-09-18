@@ -64,9 +64,8 @@ https://jihongzhang.org/posts/Lectures/2024-07-21-applied-multivariate-statistic
 }
 
 #' @export
-showtable <- function(dt, font_size = 23, ...){
-  dt <- as.data.frame(dt)
-  kableExtra::kable(dt) |>
-    kableExtra::kable_styling(font_size = font_size, ...)
+show_table <- function(data, ...){
+  kable(data) |>
+    kable_styling(bootstrap_options = c("striped", "hover"), ...)
 }
 
