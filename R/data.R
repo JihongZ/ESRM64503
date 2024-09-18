@@ -1,3 +1,15 @@
+#' dataIQ: Data file for examples used in EPSY 905
+#'
+#' A dataset containing the perf (Performance), iq (IQ) of 5 hypothetical people
+#'
+#'
+#' @format A data frame with 5 observations and 2 variables
+#' \describe{
+#'   \item{perf}{Performance}
+#'   \item{iq}{IQ}
+#' }
+"dataIQ"
+
 #' dataSexHeightWeight: Data file for examples used in EPSY 905
 #'
 #' A dataset containing the heights, weights, and sex of 20 hypothetical people
