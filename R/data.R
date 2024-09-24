@@ -88,3 +88,19 @@
 #' }
 "dataExercise"
 
+#' Data file for examples used in EPSY 905
+#'
+#' Data come from a survey of 400 college juniors looking at factors that influence the decision to apply to graduate school
+#'
+#'
+#' @format A data frame with 400 observations and 4 variables
+#' \describe{
+#'   \item{APPLY}{student rating of likelihood he/she will apply to grad school – (0 = unlikely; 1 = somewhat likely; 2 = very likely)}
+#'   \item{PARED}{ParentEd: indicator (0/1) if one or more parent has graduate degree}
+#'   \item{PUBLIC}{Public: indicator (0/1) if student attends a public university}
+#'   \item{GPA}{GPA: grade point average on 4 point scale (4.0 = perfect)}
+#' }
+"dataLogit"
+
+
+# save(dataLogit, file = "data/dataLogit.rda")
