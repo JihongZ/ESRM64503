@@ -104,3 +104,4 @@
 
 
 # save(dataLogit, file = "data/dataLogit.rda")
+# dataLogit$LLAPPLY <- ifelse(dataLogit$APPLY %in% c(1, 2), 1, dataLogit$APPLY)
